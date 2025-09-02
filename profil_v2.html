@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Hafid Azuan Rizqullah - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f0f8ff 0%, #e6e6fa 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a5acd 0%, #9370db 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+            color: #f0f8ff;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #6a5acd;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+
+        h2 i {
+            margin-right: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skill-badge {
+            background: #f0f8ff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #6a5acd;
+            border: 1px solid #e6e6fa;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #6a5acd;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contact-links a:hover {
+            background: #9370db;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .contact-links a {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="IMG-20250808-WA0002.jpg" alt="foto saya" class="profile-img">
+            <h1>M. Hafid Azuan Rizqullah</h1>
+            <p class="subtitle">AI Engineer</p>
+        </header>
+
+    <div class="content">
+        <section>
+            <h2><i class="fas fa-user"></i>Tentang Saya</h2>
+            <p>Hi! Nama saya M. Hafid Azuan Rizqullah, seorang Pelajar di SMK Semen Gresik. Saya lahir di Gresik pada tanggal 25 November 2009. Saya memiliki hobi belajar hal-hal baru dan membaca buku.</p>
+            <p>Cita-cita saya adalah menjadi seorang Software Engineer dan AI Engineer yang handal di masa depan. Saya sangat antusias dalam mengeksplorasi dunia teknologi dan selalu berusaha untuk mengembangkan keterampilan saya di bidang ini.</p>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-code"></i> Keahlian Saya</h2>
+            <div class="skills">
+                <span class="skill-badge">HTML</span>
+                <span class="skill-badge">CSS</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">AI Engineering</span>
+            </div>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-graduation-cap"></i> Pendidikan</h2>
+            <p><strong>SMK Semen Gresik</strong> - Jurusan Rekayasa Perangkat Lunak</p>
+            <p>Saya mempelajari berbagai teknologi web development dan pemrograman untuk membangun fondasi yang kuat dalam software engineering.</p>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-envelope"></i> Kontak</h2>
+            <p>Jika Anda ingin menghubungi saya, silakan kirim email atau kunjungi profil GitHub saya:</p>
+            <div class="contact-links">
+                <a href="mailto:axtarobin@gmail.com"> <i class="fas fa-envelope"></i> Email</a>
+
+                <a href="https://github.com/hafid-ui"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                &copy; 2024 M. Hafid Azuan Rizqullah. All rights reserved.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
