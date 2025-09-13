@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Kontak Saya</title>
+        <style> 
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            body {
+                background: linear-gradient(135deg, #f0f8ff 0%, #e6e6fa 100%);
+                color: #333;
+                line-height: 1.6;
+                padding: 20px;
+                min-height: 100vh;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+
+            header {
+                background: linear-gradient(135deg, #6a5acd 0%, #9370db 100%);
+                color: white;
+                padding: 30px 20px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+                margin-bottom: 10px;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+                opacity: 0.9;
+                margin-bottom: 20px;
+                color: #f0f8ff;
+            }
+
+            section {
+                padding: 20px;
+                background: whitesmoke;
+            }
+
+            h2 {
+                margin-bottom: 15px;
+                color: #333;
+            }
+
+            .skills {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 10px;
+        }
+
+            .skill-badge {
+                background: #6a5acd;
+                padding: 8px 15px;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                color: #f0f8ff;
+                border: 1px solid #e6e6fa;
+                text-decoration: none;
+                display: inline-block;
+        }
+
+            .skill-badge i {
+                margin-right: 8px;
+        }
+
+            .skill-badge:hover {
+                background: #9370db;
+                color: white;
+                box-shadow: 0 4px 15px rgba(147, 112, 219, 0.4);
+                transition: all 0.3s ease;
+        }   
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Kontak Saya</h1>
+                <p class="subtitle">Saya senang mendengar dari Anda! Berikut adalah cara untuk menghubungi saya:</p>
+            </header>
+
+            <section>
+                <h2>Informasi Kontak:</h2>
+                <div class="skills">
+                    <a href="https://github.com/hafid-ui" class="skill-badge"><i class="fab fa-github"></i>GitHub</a>
+                    <a href="mailto:axtarobin@gmail.com" class="skill-badge"><i class="fas fa-envelope"></i>Email</a>
+                    <a href="https://www.instagram.com/axtarob?igsh=MWxiaDJjNWUwbzh3NA==" class="skill-badge"><i class="fab fa-instagram"></i>Instragram</a>
+                    <a href="https://wa.me/qr/XDCHMHZCRQRVK1" class="skill-badge"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+                </div>
+            </section>
+    </body>
+</html>
